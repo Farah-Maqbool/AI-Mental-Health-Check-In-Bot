@@ -1,36 +1,4 @@
-{"intents": [
-    {"tag": "greeting",
-     "patterns": ["Hi", "Hey", "Is anyone there?","Hi there", "Hello", "Hey there", "Howdy", "Hola", "Bonjour", "Konnichiwa", "Guten tag", "Ola"],
-     "responses": ["Hello there. Tell me how are you feeling today?", "Hi there. What brings you here today?", "Hi there. How are you feeling today?", "Great to see you. How do you feel currently?", "Hello there. Glad to see you're back. What's going on in your world right now?"]
-    },
-    {"tag": "morning",
-        "patterns": ["Good morning"],
-        "responses": ["Good morning. I hope you had a good night's sleep. How are you feeling today? "]
-    },
-    {"tag": "afternoon",
-        "patterns": ["Good afternoon"],
-        "responses": ["Good afternoon. How is your day going?"]
-    },
-    {"tag": "evening",
-        "patterns": ["Good evening"],
-        "responses": ["Good evening. How has your day been?"]
-    },
-    {"tag": "night",
-        "patterns": ["Good night"],
-        "responses": ["Good night. Get some proper sleep", "Good night. Sweet dreams."]
-    },
-    {"tag": "goodbye",
-     "patterns": ["Bye", "See you later", "Goodbye", "Au revoir", "Sayonara", "ok bye", "Bye then", "Fare thee well"],
-     "responses": ["See you later.", "Have a nice day.", "Bye! Come back again.", "I'll see you soon."]
-    },
-    {"tag": "thanks",
-     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help", "Than you very much"],
-     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
-    },
-    {"tag": "no-response",
-        "patterns": [""],
-        "responses": ["Sorry, I didn't understand you.", "Please go on.", "Not sure I understand that.", "Please don't hesitate to talk to me."]
-    },
+[
     {"tag": "neutral-response",
         "patterns": ["nothing much"],
         "responses": ["Oh I see. Do you want to talk about something?"]
@@ -321,4 +289,3 @@
     }
 
     ]
-}
