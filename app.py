@@ -8,9 +8,9 @@ import os
 load_dotenv()
 
 # Access environment variables
-api_key = os.getenv("API_KEY")
 
-LLM.configure(api_key=api_key)
+
+LLM.configure(api_key=os.getenv("API_KEY"))
 config = {
             "temperature": 0.5,
             "response_mime_type": "text/plain"
