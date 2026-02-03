@@ -40,7 +40,8 @@ def call_gemini(llm_prompt: str) -> str:
 
     try:
         return data["candidates"][0]["content"]["parts"][0]["text"]
-    except Exception:
+    except Exception as e:
+        print(e)
         return "⚠️ Sorry, I couldn’t generate a response. Please try again."
 
 
